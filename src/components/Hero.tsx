@@ -31,11 +31,8 @@ const Hero: React.FC = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 p-1">
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center">
-                <img
-                  src="/src/assets/profil.jpg"
-                  alt="Profile"
-                  className="w-28 h-28 rounded-full object-cover"
-                />
+                <img src={`${import.meta.env.BASE_URL}images/profil.jpg`} alt="Profile" />
+
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-4 animate-slide-up">
